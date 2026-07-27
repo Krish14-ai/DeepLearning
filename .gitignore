@@ -1,0 +1,6 @@
+*.json
+*.jpg
+.*png
+*.jpeg
+*.weights.h5
+*.csv
