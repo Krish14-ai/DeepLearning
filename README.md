@@ -2,4 +2,4 @@
 
 ## This repo is to record my progress while learning Deep Learning
 
-## you can use this to learn or also leave a comment if i did something wrong
+## you can use this to learn or also leave a comment if you spot anything wrong
