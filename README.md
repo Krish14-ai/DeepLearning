@@ -133,3 +133,24 @@ python3 -m venv dl_env
 source dl_env/bin/activate
 ```
 
+### 3. Install Dependencies
+```bash
+pip install tensorflow keras numpy pandas scikit-learn matplotlib nltk keras-tuner pyarrow
+```
+
+### 4. Launch Jupyter Notebook
+```bash
+jupyter notebook
+```
+Navigate to any notebook (e.g., `ANN/Churn problem/churn.ipynb` or `TransferLearning/predict.ipynb`) and run the cells.
+
+---
+
+## 🤝 How to Use & Contribute
+
+- **Learning Reference**: Step through the notebooks sequentially (Foundations $\rightarrow$ ANN $\rightarrow$ CNN $\rightarrow$ RNN $\rightarrow$ Attention).
+- **Questions & Feedback**: Feel free to open an issue or pull request if you spot any bugs, have optimization tips, or would like to suggest improvements!
+
+---
+
+*Happy Learning!* 🚀
