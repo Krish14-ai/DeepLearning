@@ -97,3 +97,39 @@ Deep Learning/
   - Attention mechanisms allowing the decoder to focus dynamically across input tokens.
   - Tokenization, lemmatization (`nltk`), and parquet dataset pipelines.
 
+---
+
+## 🛠 Tech Stack & Tools
+
+- **Core Frameworks**: TensorFlow 2.x, Keras
+- **Machine Learning & Preprocessing**: Scikit-Learn
+- **Natural Language Processing**: NLTK, Tokenizer, Pad Sequences
+- **Computer Vision**: OpenCV, PIL / Pillow
+- **Data Manipulation & Analysis**: NumPy, Pandas, PyArrow (Parquet)
+- **Tuning & Visualization**: Keras Tuner, Matplotlib, Seaborn
+
+---
+
+## ⚡ Getting Started
+
+### Prerequisites
+
+Ensure you have Python 3.9+ installed. A GPU (CUDA-enabled) is recommended for training CNNs and sequence models but not required.
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Krish14-ai/DeepLearning.git
+cd DeepLearning
+```
+
+### 2. Set Up a Virtual Environment
+```bash
+# Windows (PowerShell)
+python -m venv dl_env
+.\dl_env\Scripts\Activate.ps1
+
+# Linux / macOS
+python3 -m venv dl_env
+source dl_env/bin/activate
+```
+
