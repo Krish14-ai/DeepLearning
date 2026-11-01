@@ -1,5 +1,4 @@
-# DeepLearning
+# Deep Learning Learning Roadmap
 
-## This repo is to record my progress while learning Deep Learning
+This repository serves as a structured learning path for deep learning, starting from the basics and progressing to advanced concepts and applications.
 
-## you can use this to learn or also leave a comment if you spot anything wrong
