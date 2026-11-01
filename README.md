@@ -38,3 +38,45 @@ This repository documents practical deep learning workflows across multiple prob
 - **Modern NLP**: Tokenization, embedding spaces, next-word prediction, and attention mechanisms in sequence-to-sequence setups.
 
 ---
+
+## 📂 Repository Structure
+
+```plaintext
+Deep Learning/
+├── andrej.ipynb                               # Autograd engine & backprop from scratch
+├── ANN/                                       # Artificial Neural Networks
+│   ├── Churn problem/
+│   │   └── churn.ipynb                        # Customer churn prediction on tabular data
+│   └── Mnist data set/
+│       ├── mnist.ipynb                        # MNIST handwritten digit classification
+│       └── mnist_prediction.ipynb             # Model inference & evaluation
+├── CNN/                                       # Convolutional Neural Networks
+│   ├── CNN_Architecture.ipynb                 # CNN layers, feature maps & LeNet-style architecture
+│   └── padding.ipynb                          # Valid vs same padding, strides & pooling
+├── catsvsdogs/
+│   └── prediction.ipynb                       # Binary image classification with CNNs
+├── TransferLearning/
+│   └── predict.ipynb                          # Transfer learning via pre-trained VGG16
+├── Functional_models/
+│   ├── frist.ipynb                            # Multi-input / multi-branch models with Keras Functional API
+│   └── model.png                              # Computational graph visualization
+├── Keras Tuner/
+│   └── tuner.ipynb                            # Automated hyperparameter search & optimization
+├── RNN/                                       # Recurrent Neural Networks & Sequence Models
+│   ├── Next_Word_Predictor/
+│   │   └── app/
+│   │       └── main.ipynb                     # Next-word language model
+│   └── practice/
+│       ├── rnn.ipynb                          # SimpleRNN layer mechanics and parameter counts
+│       ├── embeddings.ipynb                   # Word representations & Keras Embedding layer
+│       ├── imbd_data.ipynb                    # IMDB sentiment dataset preprocessing
+│       └── imbd_embedding.ipynb               # Sentiment classification using embeddings
+├── Attention_and_encoder_decoder/             # Seq2Seq & Attention Mechanisms
+│   └── Architecture/
+│       ├── Requirements.md                    # Module requirements
+│       └── model.ipynb                        # Bidirectional LSTM & Attention mechanism
+└── README.md
+```
+
+---
+
