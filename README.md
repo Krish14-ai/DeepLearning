@@ -31,3 +31,7 @@ Follow the directories below to track the learning progress in each phase:
 - [Phase 8: RNNs](./Phase%208%20Recurrent%20Neural%20Networks/)
 - [Phase 9: Advanced Deep Learning](./Phase%209%20Advanced%20Deep%20Learning/)
 - [Phase 10: MLOps & Deployment](./Phase%2010%20MLOps%20&%20Deployment/)
+
+## Contributing
+
+Feel free to explore, use, and learn from this repository. If you spot any errors, have suggestions, or want to contribute, please open an issue or submit a pull request!
