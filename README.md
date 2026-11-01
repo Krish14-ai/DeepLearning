@@ -80,3 +80,13 @@ Deep Learning/
 
 ---
 
+### 6. Hyperparameter Optimization (`Keras Tuner/`)
+- **[Automated Tuning](file:///c:/Users/Krish/Downloads/Deep%20Learning/Keras%20Tuner/tuner.ipynb)**:
+  - Systematic search over model hyperparameters (number of layers, units per layer, learning rates, activation functions).
+  - Integration with Scikit-learn preprocessing pipelines (`ColumnTransformer`, `SimpleImputer`).
+
+### 7. Recurrent Neural Networks & NLP (`RNN/`)
+- **[RNN Mechanics](file:///c:/Users/Krish/Downloads/Deep%20Learning/RNN/practice/rnn.ipynb)**: Understanding `SimpleRNN` cell state transitions, unrolling over timesteps, and weights/bias parameter derivation.
+- **[Word Embeddings](file:///c:/Users/Krish/Downloads/Deep%20Learning/RNN/practice/embeddings.ipynb)**: Tokenization, vocabulary construction, sequence padding (`pad_sequences`), and dense vector representations via the `Embedding` layer.
+- **[IMDB Sentiment Analysis](file:///c:/Users/Krish/Downloads/Deep%20Learning/RNN/practice/imbd_embedding.ipynb)**: Binary text classification over movie reviews using embedding layers and recurrent nets.
+- **[Next-Word Predictor](file:///c:/Users/Krish/Downloads/Deep%20Learning/RNN/Next_Word_Predictor/app/main.ipynb)**: Language modeling using sequences to generate and predict text step-by-step.
