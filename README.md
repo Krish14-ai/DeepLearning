@@ -1,37 +1,40 @@
-# Deep Learning Learning Roadmap
+# 🧠 Deep Learning Journey & Implementations
 
-This repository serves as a structured learning path for deep learning, starting from the basics and progressing to advanced concepts and applications.
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red.svg?logo=keras&logoColor=white)](https://keras.io/)
+[![Jupyter](https://img.shields.io/badge/Notebooks-Jupyter-F37626.svg?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Roadmap Overview
+> A structured collection of notebooks, experiments, and projects tracking my journey through Deep Learning — from implementing backpropagation and neural nets from scratch to advanced Convolutional, Recurrent, and Attention-based architectures.
 
-| Phase | Topic | Description |
-|-------|-------|-------------|
-| **1** | **Linear Algebra** | Foundational concepts like vectors, matrices, eigenvalues, and eigenvectors. |
-| **2** | **Probability & Statistics** | Probability distributions, Bayes' theorem, random variables, and statistical inference. |
-| **3** | **Calculus** | Derivatives, gradients, chain rule, and optimization concepts. |
-| **4** | **Python & Essential Libraries** | Python basics, NumPy, Pandas, Matplotlib, and Seaborn. |
-| **5** | **Machine Learning Fundamentals** | Supervised learning, unsupervised learning, evaluation metrics, and model selection. |
-| **6** | **Deep Learning Fundamentals** | Neural networks, activation functions, backpropagation, and optimization algorithms. |
-| **7** | **Convolutional Neural Networks (CNNs)** | Image processing, CNN architecture, transfer learning, and computer vision applications. |
-| **8** | **Recurrent Neural Networks (RNNs)** | Sequential data, NLP basics, LSTM, GRU, and sequence modeling. |
-| **9** | **Advanced Deep Learning** | Transformers, attention mechanisms, GANs, autoencoders, and reinforcement learning. |
-| **10** | **MLOps & Deployment** | Model deployment, monitoring, version control, and production pipelines. |
+---
 
-## Learning Progress
+## 📑 Table of Contents
 
-Follow the directories below to track the learning progress in each phase:
+- [Overview](#-overview)
+- [Repository Structure](#-repository-structure)
+- [Modules & Projects](#-modules--projects)
+  - [1. Foundations from Scratch](#1-foundations-from-scratch-andrejipynb)
+  - [2. Artificial Neural Networks (ANN)](#2-artificial-neural-networks-ann)
+  - [3. Convolutional Neural Networks (CNN)](#3-convolutional-neural-networks-cnn)
+  - [4. Transfer Learning](#4-transfer-learning)
+  - [5. Advanced Network Design (Functional API)](#5-advanced-network-design-functional-api)
+  - [6. Hyperparameter Optimization (Keras Tuner)](#6-hyperparameter-optimization-keras-tuner)
+  - [7. Recurrent Neural Networks & NLP](#7-recurrent-neural-networks--nlp)
+  - [8. Attention & Encoder-Decoder Architectures](#8-attention--encoder-decoder-architectures)
+- [Tech Stack & Tools](#-tech-stack--tools)
+- [Getting Started](#-getting-started)
+- [How to Use & Contribute](#-how-to-use--contribute)
 
-- [Phase 1: Linear Algebra](./Phase%201%20Linear%20Algebra/)
-- [Phase 2: Probability & Statistics](./Phase%202%20Probability%20&%20Statistics/)
-- [Phase 3: Calculus](./Phase%203%20Calculus/)
-- [Phase 4: Python & Libraries](./Phase%204%20Python%20&%20Essential%20Libraries/)
-- [Phase 5: Machine Learning Fundamentals](./Phase%205%20Machine%20Learning%20Fundamentals/)
-- [Phase 6: Deep Learning Fundamentals](./Phase%206%20Deep%20Learning%20Fundamentals/)
-- [Phase 7: CNNs](./Phase%207%20Convolutional%20Neural%20Networks/)
-- [Phase 8: RNNs](./Phase%208%20Recurrent%20Neural%20Networks/)
-- [Phase 9: Advanced Deep Learning](./Phase%209%20Advanced%20Deep%20Learning/)
-- [Phase 10: MLOps & Deployment](./Phase%2010%20MLOps%20&%20Deployment/)
+---
 
-## Contributing
+## 🔍 Overview
 
-Feel free to explore, use, and learn from this repository. If you spot any errors, have suggestions, or want to contribute, please open an issue or submit a pull request!
+This repository documents practical deep learning workflows across multiple problem domains:
+- **Foundations**: Building an autograd engine (`Value` class) and backpropagation graph from first principles.
+- **Tabular & Vision**: Customer churn classification, MNIST digit classification, and Cats vs Dogs image classification.
+- **Architectures**: LeNet/CNNs, Transfer Learning with VGG16, multi-input functional models, and Recurrent Neural Networks (RNN / LSTM).
+- **Modern NLP**: Tokenization, embedding spaces, next-word prediction, and attention mechanisms in sequence-to-sequence setups.
+
+---
