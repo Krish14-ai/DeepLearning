@@ -90,3 +90,10 @@ Deep Learning/
 - **[Word Embeddings](file:///c:/Users/Krish/Downloads/Deep%20Learning/RNN/practice/embeddings.ipynb)**: Tokenization, vocabulary construction, sequence padding (`pad_sequences`), and dense vector representations via the `Embedding` layer.
 - **[IMDB Sentiment Analysis](file:///c:/Users/Krish/Downloads/Deep%20Learning/RNN/practice/imbd_embedding.ipynb)**: Binary text classification over movie reviews using embedding layers and recurrent nets.
 - **[Next-Word Predictor](file:///c:/Users/Krish/Downloads/Deep%20Learning/RNN/Next_Word_Predictor/app/main.ipynb)**: Language modeling using sequences to generate and predict text step-by-step.
+
+### 8. Attention & Encoder-Decoder Architectures (`Attention_and_encoder_decoder/`)
+- **[Sequence-to-Sequence Modeling](file:///c:/Users/Krish/Downloads/Deep%20Learning/Attention_and_encoder_decoder/Architecture/model.ipynb)**:
+  - Encoder-Decoder paradigm with `Bidirectional(LSTM)`.
+  - Attention mechanisms allowing the decoder to focus dynamically across input tokens.
+  - Tokenization, lemmatization (`nltk`), and parquet dataset pipelines.
+
